@@ -1,40 +1,113 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+	<title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+  </head>
+  <body>
+	<div class="reveal">
+	  <div class="slides">
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+
+
+
+
+
+
+
+        <section>
+          <h2>Fuzz testing Soroban contracts</h2>
+          <div>
+            <a href="https://github.com/brson/fuzz-slides">https://github.com/brson/fuzz-slides</a>
+          </div>
+
+          <aside class="notes">
+            <ul>
+              <li>todo
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+          <h2>About me</h2>
+          <ul>
+            <li>todo
+          </ul>
+        </section>
+
+		<section>
+          <h2>About fuzz testing</h2>
+          <ul>
+            <li>Smart "random" input
+            <li>Differences from unit testing
+            <li>When to fuzz
+          </ul>
+        </section>
+
+		<section>
+          <h2>Fuzz testing and Rust</h2>
+          <ul>
+            <li>cargo-fuzz
+          </ul>
+        </section>
+
+        <section>
+          <h2>A simple fuzz test</h2>
+        </section>
+
+        <section>
+          <h2>Interpreting cargo-fuzz output</h2>
+        </section>
+
+        <section>
+          <h2>Soroban types as fuzzing input</h2>
+        </section>
+          
+        <section>
+          <h2>Fuzz testing strategies</h2>
+        </section>
+
+        <section>
+          <h2>Soroban fuzzing tips</h2>
+        </section>
+
+        <section>
+          <h2>Some initial results</h2>
+        </section>
+
+
+
+
+
+
+
+      </div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+	  // More info about initialization & config:
+	  // - https://revealjs.com/initialization/
+	  // - https://revealjs.com/config/
+	  Reveal.initialize({
+		  hash: true,
+
+		  // Learn about plugins: https://revealjs.com/plugins/
+		  plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+	  });
+	</script>
+  </body>
 </html>
