@@ -1,4 +1,4 @@
-<!doctype html>
+<<!doctype html>
 <html lang="en">
   <head>
 	<meta charset="utf-8">
@@ -25,7 +25,7 @@
 
 
 
-        <section>
+        <section data-state="next-section">
           <h2>Fuzz testing Soroban contracts</h2>
           <div>
             <ul>
@@ -53,6 +53,7 @@
             <ul>
               <li>Rust expert and founding engineer, 2011 - 2017
               <li>Reddit, PingCAP, Solana, Web3 Foundation, Stellar, MobileCoin
+              <li>This year fuzz testing
             </ul>
           </aside>
         </section>
@@ -62,8 +63,22 @@
           <ul>
             <li>Smart "random" input
             <li>Differences from unit testing
-            <li>When to fuzz
             <li>Not a proof of anything
+          </ul>
+
+          <aside class="notes">
+            <ul>
+              <li>todo
+            </ul>
+          </aside>
+        </section>
+
+		<section>
+          <h2>When to fuzz</h2>
+          <ul>
+            <li>Untrusted input
+            <li>Security
+            <li>Cost
           </ul>
 
           <aside class="notes">
@@ -109,6 +124,15 @@
 
         <section>
           <h2>Tip - What is failure?</h2>
+          <ul>
+            <li>todo
+          </ul>
+
+          <aside class="notes">
+            <ul>
+              <li>todo
+            </ul>
+          </aside>
         </section>
 
         <section>
@@ -125,7 +149,20 @@
         </section>
 
         <section>
-          <h3>Tip - use native contracts</h3>
+          <h3>Tip - Use native-compiled contracts</h3>
+          <ul>
+            <li>todo
+          </ul>
+
+          <aside class="notes">
+            <ul>
+              <li>todo
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+          <h3>Tip - Fuzz tests to proptests</h3>
           <ul>
             <li>todo
           </ul>
@@ -142,6 +179,18 @@
         </section>
 
         <section>
+          <h3>Results - Comparison functions</h3>
+        </section>
+
+        <section>
+          <h3>Results - System calls</h3>
+        </section>
+
+        <section>
+          <h3>Results - Blend</h3>
+        </section>
+
+        <section>
           <h2>Fuzz testing Soroban contracts</h2>
           <div>
             <ul>
@@ -153,7 +202,7 @@
 
           <aside class="notes">
             <ul>
-              <li>todo
+              <li>QA
             </ul>
           </aside>
         </section>
@@ -163,6 +212,12 @@
 
       </div>
 	</div>
+
+    <style>
+      .next-section {
+          filter: invert(100%);
+      }
+    </style>
 
 	<script src="dist/reveal.js"></script>
 	<script src="plugin/notes/notes.js"></script>
