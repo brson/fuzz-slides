@@ -30,7 +30,9 @@
           <div>
             <ul>
               <li><a href="https://github.com/brson/fuzz-slides">https://github.com/brson/fuzz-slides</a>
-              <li><a href="https://soroban.stellar.org/docs/advanced-tutorials/fuzzing">https://soroban.stellar.org/docs/advanced-tutorials/fuzzing</a>
+              <li><a href="https://soroban.stellar.org/docs/advanced-tutorials/fuzzing">
+                  https://soroban.stellar.org/docs/<br/>advanced-tutorials/fuzzing
+                </a>
               <li><a href="todo">todo blog</a>
             </ul>
           </div>
@@ -43,7 +45,7 @@
         </section>
 
         <section>
-          <h2>About me</h2>
+          <h3>About me</h3>
           <ul>
             <li><a href="https://brson.github.io">https://brson.github.io</a>
             <li><a href="https://commonorbit.com">https://commonorbit.com</a>
@@ -59,7 +61,7 @@
         </section>
 
 		<section>
-          <h2>About fuzz testing</h2>
+          <h3>About fuzz testing</h3>
           <ul>
             <li>Smart "random" input
             <li>Differences from unit testing
@@ -74,7 +76,7 @@
         </section>
 
 		<section>
-          <h2>When to fuzz</h2>
+          <h3>What to fuzz</h3>
           <ul>
             <li>Untrusted input
             <li>Security
@@ -89,41 +91,38 @@
         </section>
 
 		<section>
-          <h2>Fuzz testing and Rust</h2>
+          <h3>Fuzz testing and Rust</h3>
           <ul>
             <li>cargo-fuzz
           </ul>
         </section>
 
         <section>
-          <h2>A simple fuzz test</h2>
+          <h3>A simple fuzz test</h3>
         </section>
 
-        <section>
+        <section data-state="next-section">
           <h2>Live demo</h2>
         </section>
 
         <section>
-          <h2>Interpreting cargo-fuzz output</h2>
+          <h3>Interpreting cargo-fuzz output</h3>
         </section>
 
         <section>
-          <h2>Soroban types as fuzzing input</h2>
+          <h3>Soroban types as fuzzing input</h3>
         </section>
 
         <section>
-        </section>
-          
-        <section>
-          <h2>Fuzz testing strategies</h2>
+          <h3>Fuzz testing strategies</h3>
         </section>
 
-        <section>
+        <section data-state="next-section">
           <h2>Soroban fuzzing tips</h2>
         </section>
 
         <section>
-          <h2>Tip - What is failure?</h2>
+          <h3>Tip - What is failure?</h3>
           <ul>
             <li>todo
           </ul>
@@ -174,7 +173,7 @@
           </aside>
         </section>
 
-        <section>
+        <section data-state="next-section">
           <h2>Some initial results</h2>
         </section>
 
@@ -190,7 +189,7 @@
           <h3>Results - Blend</h3>
         </section>
 
-        <section>
+        <section data-state="next-section">
           <h2>Fuzz testing Soroban contracts</h2>
           <div>
             <ul>
@@ -214,8 +213,17 @@
 	</div>
 
     <style>
-      .next-section {
-          filter: invert(100%);
+      .reveal-viewport {
+          background: rgb(0,0,0);
+          background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(9,9,121,1) 88%, rgba(0,212,255,1) 100%);
+      }
+      .reveal-viewport.next-section {
+          background: rgb(0,0,0);
+          background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(121,9,9,1) 88%, rgba(255,212,0,1) 100%);
+      }
+
+      .next-section a {
+          color: #faaf42;/*#42affa*/
       }
     </style>
 
